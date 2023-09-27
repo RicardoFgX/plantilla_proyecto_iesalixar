@@ -1,54 +1,47 @@
-En este repositorio centralizaremos toda la información relativa a los **Proyectos de Desarrollo de Aplicaciones Web del I.E.S Alixar**.
-Al continuación encontraremos los **apellidos y nombre** del alumno/a junto al **título de su proyecto**. El enlace nos dará acceso al repositorio del proyecto (no a la página GitHub del usuario).
+# Repositorio de Proyectos de Desarrollo de Aplicaciones Web del I.E.S Alixar 🚀
 
-En este repositorio se debe incluir la documentación especificada en [Requerimientos y criterios a seguir en el desarrollo de los proyectos](https://github.com/iesalixar/plantilla_proyecto_iesalixar/wiki/a.---Criterios-comunes-para-todos-los-proyectos), así como las indicaciones que el tutor haya podido ir a realizando a lo largo del desarrollo del mismo.
+Este repositorio centraliza toda la información relativa a los **Proyectos de Desarrollo de Aplicaciones Web del I.E.S Alixar**.
 
-El desarrollo de toda Aplicación Web requiere seguir un [proceso estructurado](https://github.com/iesalixar/plantilla_proyecto_iesalixar/wiki/w1.--PROCESO-ESTRUCTURADO-PARA-DESARROLLO-DE-APLICACIONES-WEB), este  de contenido de la wiki te puede ayudar.
+A continuación encontrarás los **apellidos y nombre** del alumno/a junto al **título de su proyecto**. El enlace te dará acceso al repositorio del proyecto (no a la página GitHub del usuario).
 
+En este repositorio se debe incluir la documentación especificada en [Requerimientos y criterios a seguir en el desarrollo de los proyectos](docs/criterios.md), así como las indicaciones que el tutor haya podido ir realizando a lo largo del desarrollo del mismo.
 
----
-
-**Los párrafos anteriores son informativos y no deben aparecer en el reposotirio de los alumnos.**
+El desarrollo de toda Aplicación Web requiere seguir un [proceso estructurado](docs/proceso.md). Este contenido de la wiki te puede ayudar. 📖
 
 ---
 
-# Título del Proyecto
+**Los párrafos anteriores son informativos y no deben aparecer en el repositorio de los alumnos.**
 
-#### Curso Escolar 20XX-20XX
-#### Autor: [Nombre del alumno autor](Enlace a su cuenta de gitHub)
-#### Tutor: [Nombre del profesor tutor](Enlace a su cuenta de gitHub)
-#### Fecha de Inicio: DD-MM-YYYY
-#### Fecha de Finalización: DD-MM-YYYY
+---
 
-## Breve descripción del proyecto
+# Título del Proyecto 🌟
 
-Si ya tienes una idea para tu aplicación, explícala brevemente. Si no es así, lo que realmente necesitas es **buscar un problema o necesidad a la que darle solución**, y estos **están por todas partes**. Así que trata de buscar problemas o necesidades en tu vida diaria y realiza una lista. Una vez que tengas una lista exhaustiva, ya puedes empezar a pensar en **cómo puedes resolverlos**.
+#### Curso Escolar 2022-2023
+#### Autor: [Ricardo Fernández Guzmán](https://github.com/RicardoFgX) 👨‍💻
+#### Tutor: [Antonio Gabriel Gonzalez Casado](https://github.com/antonio-gabriel-gonzalez-casado) 👩‍🏫
+#### Fecha de Inicio: 26-09-2023 📅
+#### Fecha de Finalización: 29-09-2023 📅
 
-En este apartado el alumno debe hacer una breve descripción del proyecto que vaya a realizar. Esta descripción no será ua descripción detallada, será una presentación general con no más de 10 líneas.
+## Breve descripción del proyecto 📝
 
-## Definir el objetivo de la aplicación
-**Tener una gran idea** o encontrar un punto del mercado al que no se esté dando un producto o servicio es el punto de partida en cada nuevo proyecto. Antes de comenzar debes **definir claramente el propósito y la misión de la aplicación web**:
+El proyecto que estoy desarrollando es una página web de compra de jabones artesanales. La plataforma permitirá a los usuarios explorar una variedad de productos, agregarlos al carrito de compras y realizar compras en línea de forma segura y conveniente.
 
-- **¿Qué va a hacer la aplicación?**
-- **¿Cuál es su atractivo principal?** 
-- **¿Qué problema concreto va a resolver?** 
-- **¿Qué necesidad va a cubrir?**
+## Definir el objetivo de la aplicación 🎯
 
-## Estructura del Proyecto
+El objetivo principal de la aplicación es proporcionar a los usuarios una experiencia de compra de jabones fácil y agradable en línea. Para lograrlo, la aplicación debe:
 
-En este apartado el alumno explicará el contenido del repositorio y de todas las carpetas relevantes del mismo. Para facilitar la gestión de la entrega, todo el código y documentación debe estar en este repositorio.
+- **¿Qué va a hacer la aplicación?** La aplicación permitirá a los usuarios navegar por un catálogo de jabones, ver detalles de productos y realizar compras en línea.
+- **¿Cuál es su atractivo principal?** Su atractivo principal radica en la amplia variedad de jabones artesanales disponibles y la facilidad de compra en línea.
+- **¿Qué problema concreto va a resolver?** Resolverá el problema de la falta de acceso conveniente a productos de cuidado personal de alta calidad.
+- **¿Qué necesidad va a cubrir?** Cubrirá la necesidad de los usuarios de adquirir jabones naturales y artesanales de forma cómoda y segura.
 
-Por lo anterior, un proyecto que contenga un Frontend en una tecnología o framework (por ejemplo Angular) y una API REST en otra tecnología o framework (Springboot, Express) deberá tener la siguiente estructura de directorios en el repositorio de entrega:
+## Estructura del Proyecto 📂
 
-- src-api
-- src-frontend
-- docs
-- README.md
+En este apartado, explicaré la estructura del repositorio y de las carpetas relevantes del mismo. Mi proyecto seguirá la siguiente estructura de directorios:
 
-En el caso anterior, si se quiere desplegar de forma automatizada a partir del control de versiones, lo habitual es que estén los dos proyectos en repositorios separados. Por lo que se deberá configurar el despliegue automático para indicarle la raíz del código fuente de cada proyecto (si es posible) o hacer dos folks del repositorio principal uno para la API y otro para el frontend y adaptar los directorios para poder realizar el despliegue automático.
+- [src-frontend](src-frontend): Contiene el código fuente del frontend de la aplicación web.
+- [src-api](src-api): Contiene el código fuente de la API utilizada para gestionar productos y pedidos.
+- [docs](docs): Contiene la documentación del proyecto.
+- [README.md](README.md): Este archivo, que proporciona una descripción general del proyecto.
 
-En un proyecto monolítico (tecnología servidor: Springboot, Django, Express, PHP,... con un sistema de templates propio para el frontend: Thymeleaf, jinja, ejs,...) deberá tener la siguiente estructura en el repositorio de entrega:
-
-- src
-- docs
-- README.md
+Mi proyecto incluirá tanto el frontend como la API en este mismo repositorio para facilitar la gestión y el despliegue del proyecto.
