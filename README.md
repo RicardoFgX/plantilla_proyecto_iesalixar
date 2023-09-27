@@ -1,4 +1,4 @@
-# Título del Proyecto 🌟
+# Proyecto: Página web de jabones 🌟
 
 #### Curso Escolar 2022-2023
 #### Autor: [Ricardo Fernández Guzmán](https://github.com/RicardoFgX) 👨‍💻
