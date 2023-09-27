@@ -1,19 +1,3 @@
-# Repositorio de Proyectos de Desarrollo de Aplicaciones Web del I.E.S Alixar 🚀
-
-Este repositorio centraliza toda la información relativa a los **Proyectos de Desarrollo de Aplicaciones Web del I.E.S Alixar**.
-
-A continuación encontrarás los **apellidos y nombre** del alumno/a junto al **título de su proyecto**. El enlace te dará acceso al repositorio del proyecto (no a la página GitHub del usuario).
-
-En este repositorio se debe incluir la documentación especificada en [Requerimientos y criterios a seguir en el desarrollo de los proyectos](docs/criterios.md), así como las indicaciones que el tutor haya podido ir realizando a lo largo del desarrollo del mismo.
-
-El desarrollo de toda Aplicación Web requiere seguir un [proceso estructurado](docs/proceso.md). Este contenido de la wiki te puede ayudar. 📖
-
----
-
-**Los párrafos anteriores son informativos y no deben aparecer en el repositorio de los alumnos.**
-
----
-
 # Título del Proyecto 🌟
 
 #### Curso Escolar 2022-2023
